@@ -4,17 +4,134 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tushar Arora - Personal</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicons/favicon-16x16.png"
+    />
     <!-- Google font api -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sora:wght@100..800&display=swap"
       rel="stylesheet"
     />
     <!-- custom css -->
     <link rel="stylesheet" href="./css/app.css" />
   </head>
   <body>
+    <main>
+      <header>
+        <div class="logo">
+          <img src="./assets/black_image.png" alt="website logo" width="80" />
+          <h3>tushar.dev</h3>
+        </div>
+        <nav>
+          <ul class="header-nav">
+            <li class="nav-items"><a href="">About Me</a></li>
+            <li class="nav-items"><a href="">Skills</a></li>
+            <li class="nav-items"><a href="">Projects</a></li>
+            <li class="nav-items"><a href="">Contact Me</a></li>
+          </ul>
+        </nav>
+        <div class="resume-btn">
+          <button type="button">
+            Resume
+            <i
+              class="fa-solid fa-arrow-down fa-sm"
+              style="margin-left: 3px"
+            ></i>
+          </button>
+        </div>
+      </header>
+      <section class="hero-section">
+        <div class="hero-section-left">
+          <h1>
+            <span style="font-weight: 400">Hello I’am</span> Tushar Arora <br />
+            Frontend
+            <span>Developer</span> <br />
+            <span style="font-weight: 400">Based In</span> India
+          </h1>
+          <p>
+            I'm a passionate, self-proclaimed designer who specializes in full
+            stack development (React.js & Node.js). I am very enthusiastic about
+            bringing the technical and visual aspects of digital products to
+            life. User experience, pixel perfect design, and writing clear,
+            readable, highly performant code matters to me.
+          </p>
+          <div class="social-container">
+            <ul>
+              <li class="social-box">
+                <a href=""
+                  ><svg
+                    aria-hidden="true"
+                    class="octicon octicon-mark-github"
+                    height="24"
+                    version="1.1"
+                    viewBox="0 0 16 16"
+                    width="24"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                    ></path>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-box">
+                <a href=""
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li class="social-box">
+                <a href=""
+                  ><svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6.2918 18.125C13.8371 18.125 17.9652 11.8723 17.9652 6.45161C17.9652 6.27583 17.9613 6.09614 17.9535 5.92036C18.7566 5.33961 19.4496 4.62027 20 3.79614C19.2521 4.12889 18.458 4.34621 17.6449 4.44067C18.5011 3.92748 19.1421 3.12129 19.4492 2.17153C18.6438 2.64886 17.763 2.98557 16.8445 3.16724C16.2257 2.5097 15.4075 2.07432 14.5164 1.92844C13.6253 1.78255 12.711 1.93427 11.9148 2.36014C11.1186 2.78601 10.4848 3.46232 10.1115 4.28449C9.73825 5.10666 9.64619 6.02891 9.84961 6.90864C8.21874 6.8268 6.62328 6.40315 5.16665 5.66514C3.71002 4.92714 2.42474 3.89126 1.39414 2.62466C0.870333 3.52776 0.710047 4.59643 0.945859 5.61347C1.18167 6.63051 1.79589 7.5196 2.66367 8.10005C2.01219 8.07937 1.37498 7.90396 0.804688 7.58833V7.63911C0.804104 8.58685 1.13175 9.50555 1.73192 10.239C2.3321 10.9725 3.16777 11.4755 4.09687 11.6625C3.49338 11.8277 2.85999 11.8517 2.2457 11.7329C2.50788 12.5479 3.01798 13.2608 3.70481 13.772C4.39164 14.2832 5.22093 14.5672 6.07695 14.5844C4.62369 15.726 2.82848 16.3452 0.980469 16.3422C0.652739 16.3417 0.325333 16.3216 0 16.2821C1.87738 17.4865 4.06128 18.1262 6.2918 18.125Z"
+                    />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="hero-section-right">
+          <img src="./assets/character_01.png" alt="" />
+        </div>
+      </section>
+    </main>
+    <!-- fontawesome js -->
+    <script
+      src="https://kit.fontawesome.com/1789ddef8f.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- custom script -->
     <script src="./javascript/app.js"></script>
   </body>

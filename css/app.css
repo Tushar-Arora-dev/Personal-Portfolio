@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sora", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+main {
+  width: 1440px;
+  min-height: 100vh;
+  margin: auto;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.header-nav {
+  display: flex;
+  flex-direction: row;
+  font-weight: 600;
+  font-size: 15px;
+  gap: 20px;
+}
+.nav-items {
+  text-decoration: none;
+  transition: 0.3s all;
+}
+.nav-items:hover {
+  text-decoration: underline;
+  color: #404040;
+}
+
+.resume-btn button {
+  width: 150px;
+  height: 55px;
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 0.3s background-color;
+}
+
+.resume-btn button:hover {
+  background-color: #404040;
+}
+
+.resume-btn button:active {
+  background-color: white;
+  color: black;
+  font-weight: 700;
+  border: 2px solid black;
+}
+
+.hero-section {
+  padding: 60px 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.hero-section-left,
+.hero-section-right {
+  width: 50%;
+}
+.hero-section-left h1 {
+  font-size: 48px;
+  line-height: 1.5;
+  /* font-weight: 400; */
+  margin-top: 80px;
+}
+
+.hero-section h1 span:nth-child(3) {
+  color: #000;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  font-family: sans-serif;
+}
+
+.hero-section-left p {
+  text-align: justify;
+  color: #71717a;
+  margin-top: 10px;
+}
+
+.hero-section-right img {
+  width: 100%;
+}
+
+.social-container {
+  margin-top: 50px;
+}
+
+.social-box {
+  cursor: pointer;
+  width: 56px;
+  height: 56px;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  transition: 0.3s all;
+}
+
+.social-box svg {
+  fill: black;
+}
+
+.social-container ul {
+  display: flex;
+  gap: 20px;
+}
+
+.social-box:hover {
+  background-color: black;
+}
+
+.social-box:hover svg {
+  fill: white;
+}
