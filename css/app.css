@@ -21,6 +21,7 @@ main {
   min-height: 100vh;
   margin: auto;
 }
+/* header section css */
 header {
   display: flex;
   justify-content: space-between;
@@ -70,6 +71,7 @@ header {
   border: 2px solid black;
 }
 
+/* hero section css */
 .hero-section {
   padding: 60px 80px;
   display: flex;
@@ -136,3 +138,5 @@ header {
 .social-box:hover svg {
   fill: white;
 }
+
+/* skills section css */
