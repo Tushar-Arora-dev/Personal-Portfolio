@@ -140,3 +140,49 @@ header {
 }
 
 /* skills section css */
+.skills-section {
+  padding: 60px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+}
+.skills-heading {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.skills-card {
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+.skills-card svg {
+  fill: black;
+}
+.skills-card:hover {
+  background-color: black;
+  color: white;
+}
+.skills-card:hover svg {
+  fill: white;
+}
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr 1fr;
+  row-gap: 30px;
+  padding: 20px 40px;
+  column-gap: 110px;
+}
