@@ -152,7 +152,7 @@ header {
   justify-content: center;
   align-items: center;
 }
-.skills-heading {
+.section-heading {
   text-align: center;
   font-size: 40px;
   margin-bottom: 50px;
@@ -189,4 +189,48 @@ header {
   row-gap: 30px;
   padding: 20px 40px;
   column-gap: 110px;
+}
+
+/* experience section */
+.experience-section {
+  background-color: var(--primary-color);
+  padding: 60px 80px;
+  color: white;
+}
+
+.experience-card {
+  border: 2px solid var(--hover-color);
+  border-radius: 10px;
+  padding: 30px 24px;
+  cursor: pointer;
+  transition: 0.25s all;
+}
+.experience-container {
+  padding: 0px 32px;
+}
+.experience-card:hover {
+  background-color: #27272a;
+  border-color: #27272a;
+}
+.experience-card-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.experience-date {
+  color: #d4d4d8;
+  font-size: 12px;
+}
+
+.about-work {
+  margin-top: 20px;
+  text-align: justify;
+  color: #d4d4d8;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.company-name {
+  font-size: 20px;
 }
